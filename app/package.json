@@ -6,17 +6,26 @@
   "license": "MIT",
   "dependencies": {
     "@cycjimmy/jsmpeg-player": "^5.0.1",
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.3",
+    "popper.js": "^1.16.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-player": "^2.11.2",
     "react-scripts": "^5.0.1"
   },
+  "styles": [
+    "src/styles.css",
+    "node_modules/bootstrap/dist/css/bootstrap.min.css"
+  ],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+    
   },
+
   "eslintConfig": {
     "extends": "react-app"
   },
